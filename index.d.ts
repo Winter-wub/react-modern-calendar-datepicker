@@ -1,5 +1,3 @@
-import React from 'react';
-
 export type Day = {
   year: number;
   month: number;
