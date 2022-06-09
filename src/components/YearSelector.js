@@ -59,7 +59,7 @@ const YearSelector = ({
             aria-pressed={isSelected}
             data-is-default-selectable={isSelected}
           >
-            {parseInt(getLanguageDigits(item), 10) + 543}
+            {getLanguageDigits(item) + 543}
           </button>
         </li>
       );
