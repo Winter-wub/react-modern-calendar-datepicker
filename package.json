@@ -1,6 +1,6 @@
 {
-  "name": "react-modern-calendar-datepicker",
-  "version": "3.1.6",
+  "name": "@winter-wub/react-modern-calendar-datepicker",
+  "version": "3.1.7",
   "description": "A modern, beautiful, customizable date picker for React",
   "main": "lib/index.js",
   "types": "index.d.ts",
@@ -108,5 +108,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
